@@ -8,8 +8,6 @@ import CreateExercise from "./components/create-exercise.component.js";
 import EditExercise from "./components/edit-exercise.component.js";
 import CreateUser from './components/create-user.component.js';
 
-
-
 function App() {
   return (
     <Router>
