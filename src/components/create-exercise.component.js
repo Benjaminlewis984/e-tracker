@@ -27,7 +27,7 @@ export default class CreateExercises extends Component {
         Axios.get('http://localhost:5000/user')
             .then(response => {
                 console.log(response.data);
-                if(response.data.length > 0){
+                if (response.data.length > 0) {
                     this.setState({
                         users: response.data.map(user => user.username),
                         username: response.data[0].username
@@ -35,6 +35,7 @@ export default class CreateExercises extends Component {
                 }
             });
     }
+
 
     onChangeUsername(e) {
         this.setState({
