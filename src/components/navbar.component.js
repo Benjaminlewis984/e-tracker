@@ -1,9 +1,9 @@
-import React, {  Component } from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default class Navbar extends Component {
-
+    
     render() {
         return (
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -11,7 +11,7 @@ export default class Navbar extends Component {
                 <div className="collapse navbar-collapse">
                     <ul className="navbar-nav mr-auto">
                         <li className="navbar-item">
-                            <Link to="/" className="nav-link">Exercises</Link>
+                            <Link to="/list" className="nav-link">Exercises</Link>
                         </li>
                         <li className="navbar-item">
                             <Link to="/create" className="nav-link">Create Exercise Log</Link>
